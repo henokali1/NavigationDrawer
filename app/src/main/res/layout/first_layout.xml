@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/master_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/burj_khalifa"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/burj_khalifa" />
+
+                <Button
+                    android:id="@+id/burjKhalifaButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#42A5F5"
+                    android:onClick="burjKhalifaButton"
+                    android:text="@string/burj_khalifa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/dubai_fountain"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dubai_fountains" />
+
+                <Button
+                    android:id="@+id/dubaiFountainButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#42A5F5"
+                    android:onClick="dubaiFountainButton"
+                    android:text="@string/dubai_fountain" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_separeter"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/master_one"
+            android:layout_margin="8dp"
+            android:background="#5C6BC0"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_master_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_separeter"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/palm_jumeirah"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/palm_jumeirah" />
+
+                <Button
+                    android:id="@+id/palmJumeirahButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#42A5F5"
+                    android:onClick="palmJumeirahButton"
+                    android:text="@string/palm_jumeirah" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/burj_al_arab"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/burj_al_arab" />
+
+                <Button
+                    android:id="@+id/burjAlArabButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#42A5F5"
+                    android:onClick="burjAlArab"
+                    android:text="@string/burj_al_arab" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_separeter_two"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/layout_master_two"
+            android:layout_margin="8dp"
+            android:background="#5C6BC0"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_master_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_separeter_two"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/the_dubai_mall"
+                android:scaleType="fitXY"
+                android:src="@drawable/dubai_mall" />
+
+            <Button
+                android:id="@+id/theDubaiMallButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#42A5F5"
+                android:onClick="theDubaiMallButton"
+                android:text="@string/the_dubai_mall" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

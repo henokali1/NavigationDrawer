@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">DXB</string>
+    <string name="usd">USD</string>
+    <string name="euro">EURO</string>
+    <string name="pound">POUND</string>
+
+    <string name="amount_to_be_converted">0.0</string>
+    <string name="aed">AED</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="delete">C</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Currency converter</string>
+    <string name="title_section3">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="email_me_button">Email Me</string>
+    <string name="email">henokali1@gmail.com</string>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>EURO</item>
+        <item>POUND</item>
+    </string-array>
+
+
+    <string name="burj_khalifa">Burj Khalifa</string>
+    <string name="title_activity_burj_khalifa">burj_khalifa</string>
+    <string name="burj_khalifa_title">Burj Khalifa</string>
+    <string name="navigate_me">navigate me</string>
+    <string name="burj_kalifa_body">Burj Khalifa, is a megatall skyscraper in Dubai.
+        It is the tallest artificial structure in the world, standing 829.8 m.
+        Experiencing the views is a deservedly popular experience and,
+        aside from making a reservation at Atmosphere,
+        there are two ways to do it. The most popular ticket is the
+        one to the At the Top observation deck on the 124th floor (452m)
+        where high-powered telescopes (extra fee) help bring even distant developments
+        into focus (at least on clear days) and cleverly simulate the same view at night
+        and 35 years back in time. Getting to the deck means passing various multimedia exhibits
+        until a double-decker lift whisks you up at 10m per second.</string>
+
+    <string name="dubai_fountain">Dubai Fountain</string>
+    <string name="title_activity_dubai_fountain">dubai_fountain</string>
+    <string name="dubai_fountain_title">Dubai Fountain</string>
+    <string name="dubai_fountain_video_url">https://www.youtube.com/watch?v=XhuRK9D2zAM</string>
+    <string name="dubai_fountain_body">The Dubai Fountain is the largest
+        choreographed fountain system in the world set on the 30-arce manmade Burj Kalifa Lake,
+        at the center of the Downtown Dubai.
+         The fountain shoots water jets as
+        high as 500 ft (150 metres), equivalent to that of a 50-storey building.
+        The fountain is 900 ft (275 metres) long and has five circles of varying
+        sizes and two central arcs. Over 6,600 WET Superlights – the most advanced
+        incandescent large fountain lights available today – and 25 colour projectors
+        create a visual spectrum of over 1,000 abstract attractions. The beam of light
+        shining upward from the fountain can be seen from over 20 miles away, and will
+        be visible from space making it the brightest spot in the Middle East, and quite
+        possibly in the entire world.</string>
+
+    <string name="palm_jumeirah">Palm Jumeirah</string>
+    <string name="title_activity_palm_jumeirah">palm_jumeirah</string>
+    <string name="palm_jumeirah_title">Palm Jumeirah</string>
+    <string name="palm_jumeirah_body">The Palm Jumeirah is an artificial archipelago in Dubai,
+        created using land reclamation. It is one of the most ambitious real-estate
+        developments on earth, heralded as the 8th wonder of the world as it can be seen
+        from space along with another major landmark.
+        Jumeirah Palm island features themed hotels, villas,
+        apartment buildings, beaches, marinas, restaurants, and a variety of retail outlets.
+        The most popular feature being 5 star aqua themed hotel Atlantis.
+        The best way to visit Palm Jumeirah is to take a taxi to the
+        Palm Gateway Monorail Station, at the base of the Palm, and then the
+        Monorail up to the top, where most of the attractions are (Atlantis hotel,
+        Aquaventure Waterpark, The Lost Chambers Aquarium. ). This way you can enjoy the view of
+        the Palm from the elevated train.
+    </string>
+
+    <string name="burj_al_arab">Burj Al Arab</string>
+    <string name="title_activity_burj_al_arab">burj_al_arab</string>
+    <string name="burj_al_arab_subhead">Helipad</string>
+    <string name="burj_al_arab_title">Burj Al-Arab</string>
+    <string name="burj_al_arab_navigat_me">Navigate Me</string>
+    <string name="burj_al_arab_body">Dubai’s signature landmark is the Burj Al-Arab,
+        the famous sail-shaped hotel facing the Arabian Gulf.
+        The world’s only seven-star hotel. Packed with bars and restaurants,
+        the hotel is a world within a world, with guests enjoying every luxury
+        service you can imagine in their opulent suites.
+        The building itself is one of the most photographed
+        monuments in the world and is recognized as the symbol of Dubai.
+        The closest public space to the Burj Al Arab hotel is at the complex
+        entrance on the mainland, over 300m away from the hotel.
+    </string>
+    <string name="burj_al_arab_subhead_body">The disk atop the Burj Al Arab
+        hotel is a 211m high helipad. On February 22, 2005, Andre Agassi and
+        Roger Federer played a match on the helipad, that was turned into a
+        tennis court for this occasion. It was a great promotion both for
+        the Burj Al Arab hotel and for the Dubai Duty Free Men’s Open championship.
+    </string>
+
+    <string name="the_dubai_mall">Dubai Mall</string>
+    <string name="title_activity_dubai_mall">dubai_mall</string>
+    <string name="dubai_mall_title">The Dubai Mall</string>
+    <string name="dubai_mall_body">The Dubai Mall is the largest shopping mall in the world
+        based on total area and fourteenth largest by gross leasable area.
+        This entertainment complex is one of the largest in the world
+        and is more like a small city, housing some 1,200 retailers,
+        200 food and beverage outlets and a whole lineup of entertainment options.
+        Even when summer temperatures scorch outside, visitors to the Dubai Mall can
+        lace up their skates and glide across an Olympic-sized ice rink. The Dubai
+        Aquarium and Underwater Zoo, located on the ground floor, is the world’s largest
+        suspended aquarium with 2.6 million gallons (10 million liters) of tank space.
+        The entertainment complex also houses a 22-screen movie theater, SEGA Republic
+        indoor theme park and KidZania edutainment center.</string>
+
+    <string name="about_discription">This app is developed by Henok Ali as final project for the course "Android Development for Beginners. Any comment can be send by clicking the button at the end of the screen.</string>
+</resources>

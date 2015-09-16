@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.android.dxb.burj_khalifa">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/burj_khalifa_image_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/burj_khalifa_title"
+            android:scaleType="fitXY"
+            android:src="@drawable/burj_khalifa_1" />
+
+        <LinearLayout
+            android:id="@+id/burj_khalifa_layout_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/burj_khalifa_image_1"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/burj_khalifa_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/burj_khalifa_title"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/burj_khalifa_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/burj_kalifa_body"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="burjKhalifaNavigation"
+                android:text="@string/navigate_me" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

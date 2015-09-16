@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.dxb.burj_al_arab">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/burj_al_arab_image_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/burj_al_arab_title"
+            android:scaleType="fitXY"
+            android:src="@drawable/burj_al_arab_one" />
+
+        <LinearLayout
+            android:id="@+id/burj_al_arab_layout_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/burj_al_arab_image_1"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/burj_al_arab_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/burj_al_arab_title"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/burj_alarab_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/burj_al_arab_body"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/burj_al_arab_subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/burj_al_arab_subhead"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/burj_al_arab_helipad_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/burj_al_arab_subhead"
+                android:scaleType="fitXY"
+                android:src="@drawable/burj_al_arab_helipad" />
+
+            <TextView
+                android:id="@+id/burj_alarab_subhead_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/burj_al_arab_subhead_body"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/burj_al_arab_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="burjAlArabNavigateMeButton"
+                android:text="@string/burj_al_arab_navigat_me" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
